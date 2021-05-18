@@ -2,12 +2,12 @@
   "name": "",
   "version": "",
   "description": "",
-  "author": "Gulp Team <team@gulpjs.com> (https://gulpjs.com/)",
+  "author": "Burt_Harris (https://burt_harris.github.com/)",
   "contributors": [],
   "repository": "",
   "license": "MIT",
   "engines": {
-    "node": ">= 0.10"
+    "node": ">= 12"
   },
   "main": "index.js",
   "files": [
@@ -21,7 +21,6 @@
     "azure-pipelines": "nyc mocha --async-only --reporter xunit -O output=test.xunit",
     "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
-  "dependencies": {},
   "devDependencies": {
     "coveralls": "github:phated/node-coveralls#2.x",
     "eslint": "^2.13.1",
