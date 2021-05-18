@@ -1,7 +1,7 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
+  "name": "obleos",
+  "version": "0.1.0-prerelease",
+  "description": "obleos knowledge exchange language",
   "author": "Burt_Harris (https://burt_harris.github.com/)",
   "contributors": [],
   "repository": "",
@@ -9,9 +9,9 @@
   "engines": {
     "node": ">= 12"
   },
-  "main": "index.js",
+  "main": "lib/index.js",
   "files": [
-    "index.js",
+    "lib",
     "LICENSE"
   ],
   "scripts": {
