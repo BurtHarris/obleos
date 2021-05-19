@@ -14,5 +14,13 @@
     "lib",
     "LICENSE"
   ],
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "tslib": "^2.2.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "try": "ts-node examples/try"
+  }
 }

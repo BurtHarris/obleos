@@ -1,0 +1,13 @@
+{
+  "configurations": [
+  {
+    "name": "Launch Try",
+    "program": "${workspaceFolder}/lib/examples/try",
+    "request": "launch",
+    "skipFiles": [
+      "<node_internals>/**"
+    ],
+    "type": "pwa-node"
+  }
+  ]
+}

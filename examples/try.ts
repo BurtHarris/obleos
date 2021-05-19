@@ -1,13 +1,14 @@
-import {obleos, dc, dcCode} from './obleos';
+import {obleos, dc, dcCode} from '..';
 
 console.clear();
 console.debug('experiment begins')
 console.log(`${dc} is codePoint ${dcCode} (U+${dcCode.toString(16)})}, A.K.A. DOTTED CROSS` )
-console.log(obleos`
+console.log(`JSON Output:`, JSON.stringify(obleos`
 ⁜ sigil
 - line
 - end
 ⁜ end
-`);
+`));
 
-obleos`⁜ done!`;
+console.debug(`done`)
+

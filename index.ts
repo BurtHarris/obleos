@@ -1,5 +1,5 @@
-import {dcCode} from './sigils'
-export * from './sigils'
+import {dcCode} from './internal/sigils'
+export * from './internal/sigils'
 
 export function obleos(...x: TemplateStringsArray[]) {
     var lines =  x.join().split('\n');
